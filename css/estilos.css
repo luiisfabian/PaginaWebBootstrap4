@@ -2,6 +2,21 @@ html {
   font-size: 15px; }
 
 /*Estilos bloque bienvenidos*/
+.arribita{
+  color: white;
+  background: red;
+  padding: 1rem;
+}
+
+.arribita .fa{
+  color: white;
+
+}
+
+.arribita .icons{
+  margin-left: 200px;
+}
+
 .bienvenidos {
   background: url("../images/fondo-bienvenidos.jpg");
   background-size: cover;
@@ -88,7 +103,20 @@ html {
 .ultimos-proyectos a:hover img {
   -webkit-transform: scale(1.5);
       -ms-transform: scale(1.5);
-          transform: scale(1.5); }
+          transform: scale(1.5); 
+}
+
+.imagenes{
+  background: url("../images/ss.png");
+  background-size: cover;
+  height: 80vh;
+  overflow: hidden; 
+
+}
+.imagenes .h1{
+  margin-top: 30vh;
+  color: white;
+}
 
 /**Estilos bloque Pie de pagina*/
 .footer {
